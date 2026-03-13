@@ -1,0 +1,30 @@
+:root {
+  --green-bg: #0f5b33;
+  --green-bg-dark: #0b3e24;
+  --cream-bg: #f6f2e9;
+  --accent-gold: #f3c96a;
+  --text-main: #ffffff;
+  --text-dark: #273024;
+  --muted: #c7d3c2;
+  --border-subtle: rgba(255, 255, 255, 0.2);
+
+  --sans: system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto',
+    sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background: var(--green-bg);
+  color: var(--text-main);
+}
+
+#root {
+  min-height: 100vh;
+}
